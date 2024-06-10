@@ -3,3 +3,30 @@
 #logo {
     width: 170px;
 }
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/images/house-2.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    width: 600px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    color: #fff;
+    margin: auto;
+}
+
+.title{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 100%;
+    color: gray;
+}
