@@ -40,8 +40,8 @@
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 1px 2px rgba(0, 0, 0, 0.2);
-    margin: 2px 0;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding: 13px;
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
@@ -52,4 +52,34 @@
     -moz-box-shadow: 0 21px 19px -2px rgba(217, 217, 217, 1);
     box-shadow: 0 21px 19px -2px rgba(217, 217, 217, 1);
     transform: translateY(-5px);
+}
+
+#box-1 {
+    animation-name: slideRight;
+    animation-duration: 2s;
+
+}
+
+#box-2 {
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+#box-3 {
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
+@keyframes slideRight {
+    to {transform: translateX(10px);}
+}
+
+@keyframes slideUp {
+    from {transform: translateY(30px);}
+
+}
+@keyframes slideLeft {
+    from {
+        transform: translateX(30px);
+    }
 }
