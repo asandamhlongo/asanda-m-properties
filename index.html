@@ -16,7 +16,7 @@
             <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
         <body>
-            <header>
+            <header id="home">
             <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <div class="container-fluid">
                     <p class="navbar-brand">
@@ -29,14 +29,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="index.html#services">Services</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
+                                <a class="nav-link" href="index.html#gallery">Gallery</a>
                             </li>
 
                             <li class="nav-item">
@@ -64,11 +64,11 @@
                             guide you every step of the way. Welcome home to unparalleled service and unparalleled results.</p>
                         </div>
             </header>
-                        <section class="detail">
+                        <section class="detail" id="services">
                     
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-md-4">
                                         <div class="detail-item box" id="box-1">
                                             <box-icon name='home-alt-2' class="icon"></box-icon>
                                             <h2>Property selling</h2>
@@ -79,7 +79,7 @@
                                             discerning buyers eager to embark on their next chapter.</p>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4">
                                         <div class="detail-item box" id="box-2">
                                             <box-icon name='buildings' class="icon"></box-icon>
                                             <h2>Property renting</h2>
@@ -91,7 +91,7 @@
                                             requests, and community amenities, fostering a seamless rental experience from start to finish.</p>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4">
                                         <div class="detail-item box" id="box-3">
                                             <box-icon name='building-house' class="icon"></box-icon>
                                             <h2>Rent-to-buy</h2>
@@ -105,6 +105,31 @@
                                         </div>
                                     </div>
 
+                                </div>
+                            </div>
+                        </section>
+                        <section id="gallery">
+                            <div class="container">
+                                <div class="slider-wrapper">
+                                    <button id="prev-slide" class="slide-button material-symbols-rounded">
+                                        chevron_left
+                                    </button>
+                                    <ul class="image-list">
+                                        <img class="image-item" src="images/house-1.jpg" alt="img-1" />
+                                        <img class="image-item" src="images/house-3.jpg" alt="img-3" />
+                                        <img class="image-item" src="images/house-4.jpg" alt="img-4" />
+                                        <img class="image-item" src="images/house-5.jpg" alt="img-5" />
+                                        <img class="image-item" src="images/house-6.jpg" alt="img-6" />
+                                        <img class="image-item" src="images/house-7.jpg" alt="img-7" />
+                                    </ul>
+                                    <button id="next-slide" class="slide-button material-symbols-rounded">
+                                        &#10095
+                                    </button>
+                                </div>
+                                <div class="slider-scrollbar">
+                                    <div class="scrollbar-track">
+                                        <div class="scrollbar-thumb"></div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
