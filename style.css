@@ -23,6 +23,19 @@
     margin: auto;
 }
 
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 .icon {
     width: 80px;
 }
@@ -32,6 +45,10 @@
     font-weight: 500;
     line-height: 100%;
     color: gray;
+}
+
+#para {
+    animation-delay: 0.5s;
 }
 
 .line{
